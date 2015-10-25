@@ -1,7 +1,7 @@
 ## by Saman Seifi
 
-create surface ellipse major radius 27 minor radius 20 zplane 
-create surface ellipse major radius 23 minor radius 16 zplane 
+create surface ellipse major radius 20 minor radius 27 zplane 
+create surface ellipse major radius 16 minor radius 23 zplane 
 
 subtract 2 from 1
 webcut volume 1 yplane
