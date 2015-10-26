@@ -1,0 +1,13 @@
+#!python
+cubit.cmd('create surface circle radius 23.5 zplane')
+cubit.cmd('create surface circle radius 19.5 zplane')
+cubit.cmd('subtract 2 from 1')
+cubit.cmd('webcut volume 1 yplane')
+cubit.cmd('delete volume 1')
+cubit.cmd('surface 5  size auto factor 4')
+cubit.cmd('mesh surface 5')
+cubit.cmd('nodeset 1 curve 8')
+cubit.cmd('nodeset 2 curve 9')
+cubit.cmd('nodeset 3 curve 10')
+cubit.cmd('nodeset 4 curve 11')
+cubit.cmd('export abaqus "curvedfilm1.inp" dimension 2 overwrite')
