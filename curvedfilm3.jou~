@@ -10,11 +10,4 @@ delete volume 1
 surface 5  size auto factor 4
 mesh surface 5
 
-nodeset 1 curve 8
-nodeset 2 curve 9
-nodeset 3 curve 10
-nodeset 4 curve 11
-
-export abaqus "curvedfilm3.inp" dimension 2 overwrite
-
 
