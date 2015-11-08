@@ -1,7 +1,7 @@
 ## by Saman Seifi
 
-create surface circle radius 27 zplane
-create surface circle radius 23 zplane
+create surface circle radius 23.5 zplane
+create surface circle radius 19.5 zplane
 
 subtract 2 from 1
 webcut volume 1 yplane
